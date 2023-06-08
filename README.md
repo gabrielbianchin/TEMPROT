@@ -21,7 +21,7 @@ To generate the database used in this work, download DeepGOPlus CAFA3 dataset [h
 
 ## Citation
 ```
-@article{ijms222111449,
+@article{bmcbioinformaticss12859-023-05375-0,
 AUTHOR = {Oliveira, Gabriel B. and Pedrini, Helio and Dias, Zanoni},
 TITLE = {TEMPROT: protein function annotation using transformers embeddings and homology search},
 JOURNAL = {BMC Bioinformatics},
