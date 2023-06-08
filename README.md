@@ -1,4 +1,4 @@
-# TEMPROT and DS-TEMPROT: protein function annotation using Transformers embeddings and homology search
+# TEMPROT: protein function annotation using transformers embeddings and homology search
 
 ## Introduction
 This work is under review process.
