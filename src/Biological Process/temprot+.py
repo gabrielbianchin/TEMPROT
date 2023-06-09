@@ -13,12 +13,12 @@ ontologies_names = df_test.columns[2:].values
 ontology = generate_ontology('data/go.obo', specific_space=True, name_specific_space='biological_process')
 
 # Load predictions
-preds_diamond = np.load('predictions/bp-diamond.npy')
-preds_tempo = np.load('predictions/bp-temprot.npy')
+preds_blast = np.load('predictions/bp-blast.npy')
+preds_temprot = np.load('predictions/bp-temprot.npy')
 
 # Ensemble predictions
 f_pred = []
-for i, j in zip(preds_diamond, preds_transformers):
+for i, j in zip(preds_blast, preds_temprot):
   if np.sum(i) != 0:
     f_pred.append(i * (1-alpha) + j * alpha)
   else:

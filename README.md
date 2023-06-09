@@ -15,7 +15,7 @@ Run the following sequence of files for each ontology:
 2. fine-tuning.py
 3. extract-embeddings.py
 4. meta-classifier.py
-5. ds-temprot.py
+5. temprot+.py
 ```
 To generate the database used in this work, download DeepGOPlus CAFA3 dataset [here](https://deepgo.cbrc.kaust.edu.sa/data/) and run ```dataset.py``` file for each ontology.
 
